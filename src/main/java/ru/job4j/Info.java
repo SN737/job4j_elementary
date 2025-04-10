@@ -5,3 +5,4 @@ public class Info {
         System.out.println("10.04.2025");
     }
 }
+
