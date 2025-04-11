@@ -3,7 +3,6 @@ package ru.job4j.condition;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.*;
 
-
 public class VectorTest {
         @Test
     void whenVectors12and34ThenResult45() {
