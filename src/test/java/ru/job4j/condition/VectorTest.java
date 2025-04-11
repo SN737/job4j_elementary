@@ -5,7 +5,6 @@ import static org.assertj.core.api.Assertions.*;
 
 
 public class VectorTest {
-
         @Test
     void whenVectors12and34ThenResult45() {
             int x1 = 1; int y1 = 2; int x2 = 3; int y2 = 4;
