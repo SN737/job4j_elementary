@@ -9,6 +9,7 @@ public class Counter {
         return sum;
     }
 
+    /*sum by even*/
     public static int sumByEven(int start, int finish) {
         int sum = 0;
         for (int i = start; i <= finish; i++) {
