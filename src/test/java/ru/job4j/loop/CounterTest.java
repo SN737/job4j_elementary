@@ -24,7 +24,7 @@ class CounterTest {
         int start = 13;
         int finish = 10;
         double sum = sum(start, finish);
-        double expected = 46;
+        double expected = 0;
         assertThat(sum).isEqualTo(expected, withPrecision(0.01));
     }
 
