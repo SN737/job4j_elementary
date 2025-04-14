@@ -16,7 +16,7 @@ public class ArrayDefinition {
         System.out.println(surnames.length);
         System.out.println(prices.length);
 
-        for(int i = 0; i <names.length; i++) {
+        for (int i = 0; i < names.length; i++) {
         System.out.println(names[i]);
         }
     }
