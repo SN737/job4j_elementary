@@ -52,7 +52,6 @@ public class MatrixCheckTest {
         assertThat(result).isFalse();
     }
 
-
         @Test
         public void whenDiagonalFullX() {
             char[][] input = {

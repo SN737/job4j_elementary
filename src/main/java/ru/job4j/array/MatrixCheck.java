@@ -23,6 +23,8 @@ public class MatrixCheck {
         return result;
     }
 
+/* Массив из диагонали матрицы*/
+
     public static char[] extractDiagonal(char[][] board) {
         char[] result = new char[board.length];
         for (int i = 0; i < board.length; i++) {
