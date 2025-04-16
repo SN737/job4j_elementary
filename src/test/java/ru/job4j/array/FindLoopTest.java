@@ -1,5 +1,6 @@
 package ru.job4j.array;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -43,13 +44,14 @@ class FindLoopTest {
     }
 
     @Test
-    public void whenDiapasonHasSomeEqualElementThen3() {
+    @DisplayName("ищем 10, в диапазоне индексов 1-8, 10 лежит под индексом 1")
+    public void whenDiapasonHasTenElementThen1() {
         int[] data = new int[] {5, 10, 2, 4, 8, 4, 14, 4, 3, 21, 16};
-        int element = 4;
+        int element = 10;
         int start = 1;
         int finish = 8;
         int result = FindLoop.indexInRange(data, element, start, finish);
-        int expected = 3;
+        int expected = 1;
         assertThat(result).isEqualTo(expected);
     }
 
