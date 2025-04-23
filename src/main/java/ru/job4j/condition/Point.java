@@ -16,7 +16,7 @@ public class Point {
 
     public static void main(String[] args) {
         Point a = new Point(0, 0);
-        Point b = new Point(2, 2);
+        Point b = new Point(2, 0);
         double distance = a.distance(b);
         System.out.println("result (0, 0) to (2, 0) " + distance);
     }
