@@ -78,9 +78,9 @@ class MaxTest {
         int first = 14;
         int second = 3;
         int third = 2;
-        int forth = 1;
+        int forth = 100;
         int result = Max.max(first, second, third, forth);
-        int expected = 14;
+        int expected = 100;
         assertThat(result).isEqualTo(expected);
     }
 
